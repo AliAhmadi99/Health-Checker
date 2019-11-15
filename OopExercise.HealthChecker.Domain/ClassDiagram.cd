@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OopExercise.HealthChecker.Domain.Models.Comman.Client" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAQAQAAAAAAAAAAAAAAgCAAAA=</HashCode>
+      <FileName>Models\Comman\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopExercise.HealthChecker.Domain.Models.HealthCheckers.DatabaseServerHealthChecker" Collapsed="true">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\HealthCheckers\DatabaseServerHealthChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopExercise.HealthChecker.Domain.Models.HealthCheckers.HealthChecker" Collapsed="true">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAQ=</HashCode>
+      <FileName>Models\HealthCheckers\HealthChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopExercise.HealthChecker.Domain.Models.HealthCheckers.FileServerHealthChecker" Collapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\HealthCheckers\FileServerHealthChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopExercise.HealthChecker.Domain.Models.HealthCheckers.WebServerHealthChecker" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\HealthCheckers\WebServerHealthChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopExercise.HealthChecker.Domain.Models.NotifySenders.EmailNotificationSender" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\NotifySenders\EmailNotificationSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OopExercise.HealthChecker.Domain.Models.NotifySenders.SmsNotificationSender" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\NotifySenders\SmsNotificationSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OopExercise.HealthChecker.Domain.Models.NotifySenders.PhoneCallNotificationSender" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\NotifySenders\PhoneCallNotificationSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="OopExercise.HealthChecker.Domain.Models.NotifySenders.INotificationSender" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\NotifySenders\INotificationSender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
