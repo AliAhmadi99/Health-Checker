@@ -2,7 +2,6 @@
 using OopExercise.HealthChecker.Domain.Models.NotifySenders;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace OopExercise.HealthChecker.Domain.Models.HealthCheckers
@@ -18,9 +17,16 @@ namespace OopExercise.HealthChecker.Domain.Models.HealthCheckers
         }
 
         public string ConnectionString { get; private set; }
+        protected string AccessToken { get; private set; }
         public bool Status { get; protected set; }
         public Client Client { get; private set; }
-
         public abstract Task Check(bool sendNotification);
+        public void SetAccessToken(string accessToken)
+        {
+            if (string.IsNullOrEmpty(accessToken))
+                throw new ArgumentNullException(nameof(accessToken));
+            AccessToken = accessToken;
+            //Set token to request
+        }
     }
 }

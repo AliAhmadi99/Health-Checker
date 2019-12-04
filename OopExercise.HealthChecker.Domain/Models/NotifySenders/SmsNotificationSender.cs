@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Diagnostics;
 using OopExercise.HealthChecker.Domain.Models.Comman;
 
 namespace OopExercise.HealthChecker.Domain.Models.NotifySenders
 {
     public class SmsNotificationSender : INotificationSender
     {
-        public void Notify(Client client)
+        public void Notify(Client client, string message)
         {
-            //Send Notification to client.CellphoneNumber
-            throw new NotImplementedException();
+            Debug.WriteLine($"SMS Notify to {client.CellphoneNumber} Successfully.\nMessage: {message}\n\n\n");
         }
     }
 }

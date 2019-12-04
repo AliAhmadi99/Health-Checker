@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Net;
 using System.Text;
+using System.Threading.Tasks;
 using OopExercise.HealthChecker.Domain.Models.Comman;
 using OopExercise.HealthChecker.Domain.Models.NotifySenders;
 
@@ -13,15 +16,14 @@ namespace OopExercise.HealthChecker.Domain.Models.HealthCheckers
             : base(connectionString, client, notifySenders)
         {
         }
-
-        public override void Check(bool sendNotification)
+        public Uri FileUri { get; set; }
+        public override async Task Check(bool sendNotification)
         {
-            //Status=upload a file to check heath;
-            if (!Status && sendNotification)
-                foreach (var sender in notifySenders)
-                {
-                    sender.Notify(Client);
-                }
+            string filePath = string.Empty;
+            WebClient client = new WebClient();
+            File.Copy(filePath, ConnectionString + " - " + DateTime.UtcNow.Date);
+            byte[] arrReturn = await client.UploadFileTaskAsync(FileUri, filePath);
+            Console.WriteLine(arrReturn.ToString());
         }
     }
 }
