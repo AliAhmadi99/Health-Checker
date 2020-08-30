@@ -1,4 +1,4 @@
-﻿using OopExercise.HealthChecker.Domain.Models.Comman;
+﻿using OopExercise.HealthChecker.Domain.Models.Common;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;

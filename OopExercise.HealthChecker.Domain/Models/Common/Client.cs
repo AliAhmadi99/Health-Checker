@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OopExercise.HealthChecker.Domain.Models.Comman
+namespace OopExercise.HealthChecker.Domain.Models.Common
 {
     public class Client
     {

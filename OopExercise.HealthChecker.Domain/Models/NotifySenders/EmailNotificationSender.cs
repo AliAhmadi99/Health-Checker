@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
-using OopExercise.HealthChecker.Domain.Models.Comman;
+using OopExercise.HealthChecker.Domain.Models.Common;
 
 namespace OopExercise.HealthChecker.Domain.Models.NotifySenders
 {

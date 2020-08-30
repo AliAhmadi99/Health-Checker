@@ -4,7 +4,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using OopExercise.HealthChecker.Domain.Models.Comman;
+using OopExercise.HealthChecker.Domain.Models.Common;
 using OopExercise.HealthChecker.Domain.Models.NotifySenders;
 
 namespace OopExercise.HealthChecker.Domain.Models.HealthCheckers

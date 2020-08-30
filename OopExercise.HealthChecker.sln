@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopExercise.HealthChecker.Domain", "OopExercise.HealthChecker.Domain\OopExercise.HealthChecker.Domain.csproj", "{EB9A695C-80DA-4D2C-8AFE-F0182365FA21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopExercise.HealthChecker.Test", "OopExercise.HealthChecker.Test\OopExercise.HealthChecker.Test.csproj", "{E33B6FBF-3A8F-47EA-9F29-16A32BF08B4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopExercise.HealthChecker.Test", "OopExercise.HealthChecker.Test\OopExercise.HealthChecker.Test.csproj", "{E33B6FBF-3A8F-47EA-9F29-16A32BF08B4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

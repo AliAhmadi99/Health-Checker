@@ -1,4 +1,4 @@
-﻿using OopExercise.HealthChecker.Domain.Models.Comman;
+﻿using OopExercise.HealthChecker.Domain.Models.Common;
 using OopExercise.HealthChecker.Domain.Models.NotifySenders;
 using System;
 using System.Collections.Generic;

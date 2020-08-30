@@ -13,4 +13,8 @@
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OopExercise.HealthChecker.Domain\OopExercise.HealthChecker.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
